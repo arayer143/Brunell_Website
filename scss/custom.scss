@@ -67,6 +67,22 @@ body::-webkit-scrollbar{
 
 }
 
+.nav-item a{
+color: white;
+
+}
+
+.nav-item a :hover{
+  color: white;
+  
+  }
+
+
+
+.navbar-nav .active {
+  color: red;
+}
+
 .navbar-brand{
   color: white;
   font-size: 13px;

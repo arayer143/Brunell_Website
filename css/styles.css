@@ -10,6 +10,7 @@
 
   /* Default text color */
   --color-default: #1a1f24;
+  
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
@@ -257,6 +258,8 @@ a:hover {
   border-bottom: 1px solid rgba(128, 208, 199, 0.35);
   z-index: 9;
   position: fixed;
+  color: white;
+
 }
 
 
@@ -288,7 +291,7 @@ a:hover {
 
 .navbar-toggler .navbar-toggler-icon {
   background: var(--white-color);
-  transition: background 10ms 300ms ease;
+
   display: block;
   width: 30px;
   height: 2px;
@@ -739,7 +742,7 @@ a:hover {
   width: 35px;
   height: 35px;
   line-height: 36px;
-  transition: background 0.2s, color 0.2s;
+
 }
 
 .social-icon-link:hover {
@@ -769,6 +772,7 @@ a:hover {
 
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
+    color: white;
   }
 
   .featured-section {
