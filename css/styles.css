@@ -245,7 +245,7 @@ a {
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  color: white;
 }
 
 
@@ -410,7 +410,7 @@ a:hover {
 }
 
 .site-header .custom-icon:hover {
-  color: var(--secondary-color);
+  color: white;
 }
 
 
@@ -517,30 +517,6 @@ a:hover {
   padding: 20px 35px;
 }
 
-.social-share .bi-bookmark {
-  color: var(--white-color);
-  font-size: var(--h5-font-size);
-}
-
-.social-share .bi-bookmark:hover {
-  color: var(--secondary-color);
-}
-
-.bg-design {
-  background-color: #00B0FF;
-}
-
-
-
-.bg-finance {
-  background-color: #536DFE;
-}
-
-.bg-music {
-  background-color: #F9A826;
-}
-
-
 /*---------------------------------------
   TOPICS               
 -----------------------------------------*/
@@ -578,7 +554,7 @@ a:hover {
 .page-item:first-child .page-link:hover,
 .page-item:last-child .page-link:hover {
   background-color: var(--secondary-color);
-  color: var(--white-color);
+  color: white;
 }
 
 .page-item:first-child .page-link {
@@ -766,14 +742,7 @@ a:hover {
     background-color: var(--secondary-color);
   }
 
-  .navbar-expand-lg .navbar-nav {
-    padding-bottom: 20px;
-  }
 
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0;
-    color: white;
-  }
 
   .featured-section {
     border-radius: 0 0 80px 80px;

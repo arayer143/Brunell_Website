@@ -10,6 +10,8 @@ $primary: #2f5e5a;
 $info: white;
 $secondary: #2d5855;
 
+$link-color:                 black; //red
+$link-hover-color:           #0f0; //green
 
 
 h1{
@@ -79,7 +81,7 @@ color: white;
 
 
 
-.navbar-nav .active {
+.navbar-nav :hover {
   color: red;
 }
 

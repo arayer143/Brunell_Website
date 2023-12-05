@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
   color: white;
 }
 
-.navbar-nav .active {
+.navbar-nav :hover {
   color: red;
 }
 
@@ -418,11 +418,11 @@ body::-webkit-scrollbar {
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #2f5e5a;
-  --bs-link-color-rgb: 47, 94, 90;
+  --bs-link-color: black;
+  --bs-link-color-rgb: 0, 0, 0;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #264b48;
-  --bs-link-hover-color-rgb: 38, 75, 72;
+  --bs-link-hover-color: #0f0;
+  --bs-link-hover-color-rgb: 0, 255, 0;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -3615,7 +3615,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 78, 118, 115;
+  --bs-btn-focus-shadow-rgb: 38, 38, 38;
   text-decoration: underline;
 }
 .btn-link:focus-visible {
