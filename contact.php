@@ -7,6 +7,9 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 require 'vendor\autoload.php';
+require 'vendor\phpmailer\phpmailer\src\PHPMailer.php';
+require 'vendor\phpmailer\phpmailer\src\Exception.php';
+
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
