@@ -29,15 +29,16 @@ try {
 
 
 
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = $_POST['subject'];
-    $mail->Body    = $_POST['text'];
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+//Content
+$mail->isHTML(true);                                  // Set email format to HTML
+$mail->Subject = $_POST['subject'];
+$mail->Body    = $_POST['text'];
 
-    $mail->send();
-    echo 'Message has been sent';
-    exit();
+$mail->send();
+
+exit();
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+echo 'Message could not be sent.';
+echo 'Mailer Error: ' . $mail->ErrorInfo;
 }
+?>
