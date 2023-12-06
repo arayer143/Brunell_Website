@@ -5,6 +5,8 @@ h1, .h1 {
 
 h2, .h2 {
   text-align: center;
+  font-size: 15px;
+
 }
 
 h5, .h5 {
@@ -25,7 +27,7 @@ h3, .h3 {
 }
 
 .breadcrumb {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 body {
