@@ -31,8 +31,8 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'You have a new Client!';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->Subject = $_POST['name'];'You have a new Client!';
+    $mail->Body    = 'has signed up with the email:'; $_POST['email'];
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
