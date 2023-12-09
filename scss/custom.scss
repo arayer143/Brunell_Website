@@ -181,32 +181,32 @@ color: white;
 
 
 /*--------------------------------------------------------------
-# About-info Section
+# Informational-info Section
 --------------------------------------------------------------*/
-.about{
+.informational{
   height: auto;
 }
 
-.about .about-img {
+.informational .informational-img {
   position: relative;
   margin: 100px 0 0 100px;
 }
 
-.about .about-img:before {
+.informational .informational-img:before {
   position: absolute;
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../images/about-bg.webp") top left;
+  background: url("/images/about-bg.webp") top left;
   background-repeat: no-repeat;
 }
 
 @media (max-width: 575px) {
-  .about .about-img {
+  .informational .informational-img {
     margin: 30px 0 0 30px;
   }
 
-  .about .about-img:before {
+  .informational .informational-img:before {
     inset: -30px 0 0 -30px;
   }
 }
