@@ -352,34 +352,6 @@ a:hover {
 
 
 
-/*---------------------------------------
-  CUSTOM ICON COLOR               
------------------------------------------*/
-.custom-icon {
-  color: var(--secondary-color);
-}
-
-
-/*---------------------------------------
-  CUSTOM BUTTON               
------------------------------------------*/
-.custom-btn {
-  background: var(--custom-btn-bg-color);
-  border: 2px solid transparent;
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-size: var(--btn-font-size);
-  font-weight: var(--font-weight-semibold);
-  line-height: normal;
-  transition: all 0.3s;
-  padding: 10px 20px;
-}
-
-.custom-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
-  color: var(--white-color);
-}
-
 
 
 
@@ -440,7 +412,7 @@ a:hover {
 
 
 /*---------------------------------------
-  TOPICS              
+  Other Custom styling            
 -----------------------------------------*/
 .featured-section {
   background-image: linear-gradient(125deg,#62e1c1 15%,  #295854 100%);
@@ -525,9 +497,6 @@ a:hover {
   padding: 20px 35px;
 }
 
-/*---------------------------------------
-  TOPICS               
------------------------------------------*/
 
 .custom-block-popular-topics-info {
   margin: 30px 20px 20px 30px;
@@ -611,9 +580,6 @@ a:hover {
   line-height: 40px;
 }
 
-/*---------------------------------------
-  NEWSLETTER               
------------------------------------------*/
 
 
 /*---------------------------------------
