@@ -727,6 +727,7 @@ a:hover {
   .custom-block-popular-topics-info,
   .custom-block-popular-topics a {
     flex-direction: column;
+    vertical-align: center;
   }
 
 
