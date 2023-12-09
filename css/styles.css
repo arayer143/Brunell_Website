@@ -529,15 +529,15 @@ a:hover {
   TOPICS               
 -----------------------------------------*/
 
-.custom-block-topics-listing-info {
+.custom-block-popular-topics-info {
   margin: 30px 20px 20px 30px;
 }
 
-.custom-block-topics-listing {
+.custom-block-popular-topics {
   height: inherit;
 }
 
-.custom-block-topics-listing .custom-block-image {
+.custom-block-popular-topics .custom-block-image {
   width: 200px;
 }
 
@@ -753,13 +753,13 @@ a:hover {
     padding-bottom: 50px;
   }
 
-  .custom-block-topics-listing .custom-block-image {
+  .custom-block-popular-topics .custom-block-image {
     width: auto;
   }
 
-  .custom-block-topics-listing > .d-flex,
-  .custom-block-topics-listing-info,
-  .custom-block-topics-listing a {
+  .custom-block-popular-topics > .d-flex,
+  .custom-block-popular-topics-info,
+  .custom-block-popular-topics a {
     flex-direction: column;
   }
 
