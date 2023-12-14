@@ -100,7 +100,7 @@
   --p-font-size:                  20px;
   --menu-font-size:               14px;
   --btn-font-size:                18px;
-  --copyright-font-size:          16px;
+
 
   --border-radius-large:          100px;
   --border-radius-medium:         20px;
@@ -509,6 +509,26 @@ a:hover {
 .custom-block-popular-topics .custom-block-image {
   width: 200px;
 }
+
+
+
+/*---------------------------------------
+Paragraph styling throught project          
+-----------------------------------------*/
+
+.about-text p{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*---------------------------------------
