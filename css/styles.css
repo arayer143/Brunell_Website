@@ -516,6 +516,44 @@ a:hover {
 Paragraph styling throught project          
 -----------------------------------------*/
 
+.about-text{
+  margin-left: -6rem;
+}
+
+@media screen and (max-width:500px){
+
+
+
+  .about-text{
+ margin-left: 1rem;
+
+  }
+
+
+
+}
+
+
+@media screen and (max-width:1000px){
+
+
+
+  .about-text{
+ margin-left: 1rem;
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
 .about-text p{
   font-size: 15px;
 }
