@@ -194,11 +194,20 @@ body::-webkit-scrollbar {
 
 .btn-group a {
   color: white;
+  text-align: center;
   text-decoration: none;
   font-size: 25px;
   font-weight: 400;
 }
 
+@media (max-width: 900px) {
+  .btn-group a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
 /*--------------------------------------------------------------
 # Informational-info Section
 --------------------------------------------------------------*/
@@ -228,6 +237,13 @@ body::-webkit-scrollbar {
     inset: -30px 0 0 -30px;
   }
 }
+/*--------------------------------------------------------------
+Calendly Embeded Section
+--------------------------------------------------------------*/
+.calendly::-webkit-scrollbar {
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # On Focus Section
 --------------------------------------------------------------*/
