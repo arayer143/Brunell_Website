@@ -8,7 +8,7 @@ anime.timeline({loop: true})
     scaleX: [0,1],
     opacity: [0.5,1],
     easing: "easeInOutExpo",
-    duration: 900
+    duration: 1300
   }).add({
     targets: '.ml14 .letter',
     opacity: [0,1],
@@ -16,7 +16,7 @@ anime.timeline({loop: true})
     translateZ: 0,
     scaleX: [0.3, 1],
     easing: "easeOutExpo",
-    duration: 800,
+    duration: 900,
     offset: '-=600',
     delay: (el, i) => 150 + 25 * i
   }).add({

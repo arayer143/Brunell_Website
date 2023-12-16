@@ -111,6 +111,11 @@ body::-webkit-scrollbar {
     font-size: 16px;
   }
 }
+.about-section .social {
+  text-align: center;
+  font-size: 10px;
+}
+
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/

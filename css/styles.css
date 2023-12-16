@@ -729,35 +729,97 @@ Paragraph styling throught project
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
-.social-icon {
-  margin: 0;
-  padding: 0;
-}
 
-.social-icon-item {
-  list-style: none;
-  display: inline-block;
-  vertical-align: top;
-}
 
-.social-icon-link {
-  background: var(--secondary-color);
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-size: var(--copyright-font-size);
- 
-  margin-right: 10px;
+.rounded-social-buttons {
   text-align: center;
-  width: 35px;
-  height: 35px;
-  line-height: 36px;
+  display: flex;
+justify-content:center ;
+margin-top: 3rem;
+
 
 }
 
-.social-icon-link:hover {
-  background: var(--primary-color);
-  color: var(--white-color);
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  text-decoration: none;
+  color: #fefefe;
+  font-size: small;
+  font-weight: 500;
+  border-radius: 50%;
+  transition: all 0.10 ease;
+  margin-bottom: -15px;
+  margin-right: 4px;
+  margin-left: 5px;
+
+  
+
 }
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  animation: bounce 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+
+
+.rounded-social-buttons .fa-tiktok, .fa-facebook-f, .fa-linkedin, .fa-yelp, .fa-instagram {
+  font-size: 25px;
+ margin-top: 12px;
+ 
+
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+
+
+.rounded-social-buttons .social-button.tiktok {
+  background: black;
+  filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4)
+}
+
+
+
+
+.rounded-social-buttons .social-button.yelp {
+  background: #bb0000;
+}
+
+
+
+.rounded-social-buttons .social-button.instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #0077b5 ;
+}
+
+
+/*end of social Icons*/
+
+
+
 
 
 /*---------------------------------------
