@@ -91,12 +91,12 @@
   --body-font-family:             'Open Sans', sans-serif;
   --title-font-family:            'Montserrat', sans-serif;
 
-  --h1-font-size:                 58px;
+
   --h2-font-size:                 36px;
   --h3-font-size:                 32px;
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
+
   --p-font-size:                  20px;
   --menu-font-size:               14px;
   --btn-font-size:                18px;
@@ -175,28 +175,10 @@ body {
   TYPOGRAPHY               
 -----------------------------------------*/
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--dark-color);
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--title-font-family); 
-  font-weight: var(--font-weight-semibold);
-}
 
-h1 {
-  font-size: var(--h1-font-size);
-  font-weight: var(--font-weight-bold);
-}
+
+
 
 h2 {
   font-size: var(--h2-font-size);
@@ -215,10 +197,6 @@ h5 {
   font-size: var(--h5-font-size);
 }
 
-h6 {
-  color: var(--primary-color);
-  font-size: var(--h6-font-size);
-}
 
 p {
   color: var(--p-color);
@@ -398,6 +376,7 @@ a:hover {
   overflow: hidden;
   padding-top: 150px;
   padding-bottom: 150px;
+text-align: center;
 }
 
 
@@ -787,24 +766,6 @@ Paragraph styling throught project
     flex-direction: column;
     vertical-align: center;
   }
-
-
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 26px;
-  }
-
-
 
 
 }
