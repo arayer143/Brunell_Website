@@ -1,35 +1,46 @@
 
 
 
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.ml1 .letter');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
 anime.timeline({loop: true})
   .add({
-    targets: '.ml1 .letter',
-    scale: [0.3,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 2000,
-    delay: (el, i) => 70 * (i+1)
-  }).add({
-    targets: '.ml1 .line',
-    scaleX: [0,1],
+    targets: '.ml5 .line',
     opacity: [0.5,1],
-    easing: "easeOutExpo",
-    duration: 4000,
-    offset: '-=875',
-    delay: (el, i, l) => 80 * (l - i)
+    scaleX: [0, 1],
+    easing: "easeInOutExpo",
+    duration: 1000
   }).add({
-    targets: '.ml1',
-    opacity: 0,
-    duration: 2000,
+    targets: '.ml5 .line',
+    duration: 600,
     easing: "easeOutExpo",
-    delay: 1000
+    translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+  }).add({
+    targets: '.ml5 .ampersand',
+    opacity: [0,1],
+    scaleY: [0.5, 1],
+    easing: "easeOutExpo",
+    duration: 1000,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5 .letters-left',
+    opacity: [0,1],
+    translateX: ["0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 400,
+    offset: '-=300'
+  }).add({
+    targets: '.ml5 .letters-right',
+    opacity: [0,1],
+    translateX: ["-0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 400,
+    offset: '-=400'
+  }).add({
+    targets: '.ml5',
+    opacity: 0,
+    duration: 200,
+    easing: "easeOutExpo",
+    delay: 9000
   });
-
 
 
 
