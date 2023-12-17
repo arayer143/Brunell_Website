@@ -101,8 +101,10 @@ color: white;
 
 
 .ml14 {
-  font-weight: 400;
-  font-size: 3.2em;
+  font-weight: 600;
+  font-size: 5.2em;
+  color: black;
+  font-family: 'Oswald', sans-serif;
 }
 
 .ml14 .text-wrapper {
@@ -129,10 +131,7 @@ color: white;
   line-height: 1em;
 }
 
-.hero-section h6{
-  font-size: 20px;
 
-}
 
 @media (max-width:1300px){
 
@@ -146,11 +145,11 @@ color: white;
 
 @media (max-width:600px){
 
-  .hero-section h6{
-    font-size: 16px;
-  
+  .ml14 {
+    font-weight: 500;
+    font-size: 3.2em;
+    
   }
-
 }
 
 
