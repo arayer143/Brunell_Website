@@ -119,6 +119,149 @@ body::-webkit-scrollbar {
   margin-right: 25rem;
 }
 
+.hero-section {
+  background: linear-gradient(45deg, #a5beba 0%, #175363 29%, #295854 66%, #295854 100%);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  /*min-height: calc(100vh - 2rem);*/
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-section::before,
+.hero-section::after {
+  content: "";
+  width: 70vmax;
+  height: 70vmax;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.07);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none;
+}
+
+.hero-section::after {
+  width: 70vmin;
+  height: 70vmin;
+  left: auto;
+  right: -10vmin;
+  top: auto;
+  bottom: 0;
+  animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
+  transform-origin: 20% 20%;
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40%/70% 30% 70% 30%;
+  }
+  100% {
+    border-radius: 40% 60%;
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.st0 {
+  display: none;
+}
+
+.st1 {
+  display: inline;
+}
+
+.st2 {
+  opacity: 0.29;
+}
+
+.st3 {
+  fill: #FFFFFF;
+}
+
+.st4 {
+  -webkit-clip-path: url(#SVGID_2_);
+          clip-path: url(#SVGID_2_);
+  fill: #FFFFFF;
+}
+
+.st5 {
+  -webkit-clip-path: url(#SVGID_4_);
+          clip-path: url(#SVGID_4_);
+}
+
+.st6 {
+  -webkit-clip-path: url(#SVGID_6_);
+          clip-path: url(#SVGID_6_);
+}
+
+.st7 {
+  -webkit-clip-path: url(#SVGID_8_);
+          clip-path: url(#SVGID_8_);
+}
+
+.st8 {
+  -webkit-clip-path: url(#SVGID_10_);
+          clip-path: url(#SVGID_10_);
+}
+
+.st9 {
+  fill: none;
+}
+
+.st10 {
+  -webkit-clip-path: url(#SVGID_12_);
+          clip-path: url(#SVGID_12_);
+}
+
+.st11 {
+  opacity: 0.7;
+}
+
+.st12 {
+  -webkit-clip-path: url(#SVGID_14_);
+          clip-path: url(#SVGID_14_);
+}
+
+.st13 {
+  opacity: 0.2;
+}
+
+.st14 {
+  -webkit-clip-path: url(#SVGID_16_);
+          clip-path: url(#SVGID_16_);
+}
+
+.st15 {
+  opacity: 0.3;
+  fill: #FFFFFF;
+  enable-background: new;
+}
+
+.banner-container {
+  background-color: #a5beba;
+  border-radius: 1rem;
+}
+
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
