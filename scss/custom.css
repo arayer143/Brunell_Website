@@ -258,7 +258,8 @@ body::-webkit-scrollbar {
 }
 
 .banner-container {
-  background-image: linear-gradient(125deg, #62e1c1 15%, #295854 100%);
+  background-image: linear-gradient(25deg, #52bea3 40%, #3e8b85 100%);
+  animation: Gradient 15s ease infinite;
   border-radius: 1rem;
 }
 
