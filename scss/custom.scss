@@ -101,9 +101,9 @@ color: white;
 
 
 .ml14 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 5.2em;
-  color: black;
+  color: white;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -168,7 +168,9 @@ color: white;
 
 
 
-.hero-section{
+.hero-section,
+
+{
   background: -moz-linear-gradient(45deg, #a5beba 0%, #175363 29%, #295854 66%, #295854 100%);
   background: -webkit-linear-gradient(45deg, #a5beba 0%,#175363 29%,#295854 66%,#295854 100%);
   background: linear-gradient(45deg, #a5beba 0%,#175363 29%,#295854 66%,#295854 100%);
