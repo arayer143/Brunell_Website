@@ -10,6 +10,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 35px;
   color: white;
+  line-height: 3;
 }
 
 h3, .h3 {
@@ -70,7 +71,7 @@ body::-webkit-scrollbar {
 
 .ml14 {
   font-weight: 700;
-  font-size: 5.2em;
+  font-size: 6.2em;
   color: white;
   font-family: "Oswald", sans-serif;
 }
@@ -106,8 +107,8 @@ body::-webkit-scrollbar {
 }
 @media (max-width: 600px) {
   .ml14 {
-    font-weight: 500;
-    font-size: 3.2em;
+    font-weight: 700;
+    font-size: 4.2em;
   }
 }
 .about-section .social {
