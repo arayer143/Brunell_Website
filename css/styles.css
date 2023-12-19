@@ -235,7 +235,7 @@ a:hover {
   background: transparent;
   border-bottom: 1px solid rgba(128, 208, 199, 0.35);
   z-index: 9;
-  position: fixed;
+
   color: white;
 
 }
@@ -297,6 +297,9 @@ a:hover {
 .navbar-toggler .navbar-toggler-icon::after {
   top: 8px;
 }
+
+
+
 
 
 

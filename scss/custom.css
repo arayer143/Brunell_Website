@@ -62,13 +62,6 @@ body::-webkit-scrollbar {
   font-size: 13px;
 }
 
-.logo-img {
-  height: 50px;
-  margin-right: 10rem;
-  margin-left: 30px;
-  line-height: 1;
-}
-
 .ml14 {
   font-weight: 700;
   font-size: 6.2em;
