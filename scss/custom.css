@@ -67,11 +67,16 @@ body::-webkit-scrollbar {
   padding-right: 20px;
 }
 
+.banner-img {
+  color: white;
+}
+
 .ml14 {
   font-weight: 700;
   font-size: 6.2em;
   color: white;
   font-family: "Oswald", sans-serif;
+  z-index: 1;
 }
 
 .ml14 .text-wrapper {
