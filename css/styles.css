@@ -417,10 +417,20 @@ text-align: center;
   height: 100%;
 }
 
+
+.custom-block-link, iframe{
+  display: block;
+  
+}
+
 .custom-block:hover {
   background-color: var(--secondary-color);
-  transform: translateY(-3px);
+  transform: translateY(-5px);
 }
+
+
+
+
 
 .custom-block > a {
   width: 100%;
@@ -506,9 +516,7 @@ color: #000000;
 }
 
 
-.custom-block-popular-topics-info {
-  margin: 30px 20px 20px 30px;
-}
+
 
 .custom-block-popular-topics {
   height: inherit;
