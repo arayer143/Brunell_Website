@@ -47,10 +47,18 @@ body::-webkit-scrollbar {
 
 .nav-item a {
   color: white;
+  font-size: 18px;
+  margin-top: 2rem;
+  white-space: nowrap;
 }
 
 .nav-item a :hover {
   color: white;
+}
+
+.navbar {
+  background-color: #175363;
+  height: auto;
 }
 
 .navbar-nav :hover {
@@ -58,8 +66,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar-brand {
-  color: white;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .navbar-nav > li {
