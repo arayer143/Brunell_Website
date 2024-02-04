@@ -444,6 +444,7 @@ text-align: center;
   height: 200px;
   object-fit: cover;
   margin-top: 35px;
+  border-radius: 1rem;
 }
 
 .custom-block .rounded-pill {
