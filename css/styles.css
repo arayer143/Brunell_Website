@@ -490,9 +490,25 @@ text-align: center;
 .custom-block-overlay-text p{
    color: black;
    font-weight: 400;
+   font-size: 20px;
    
   
   }
+
+
+
+  @media (max-width: 420px){
+    .custom-block-overlay-text p{
+      color: black;
+      font-weight: 400;
+      font-size: 17px;
+      
+     
+     }
+  }
+
+
+
 
 .social-share {
 
