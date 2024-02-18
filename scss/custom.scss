@@ -58,7 +58,10 @@ body::-webkit-scrollbar{
 
 }
 
-
+.nav-img{
+  margin-left: -55px;
+  margin-right: 2rem;
+}
 
 .nav-item a{
 color: white;
@@ -97,6 +100,7 @@ white-space: nowrap;
 .banner-img{
  color: white;
 
+ max-width: 600px;
 }
 
 
@@ -135,9 +139,20 @@ white-space: nowrap;
 
 
 
+ h6{
+  font-size: 26px;
+}
+
+
+.header-desc{
+  font-size: 20px;
+  color: black;
+}
+
 @media (max-width:1300px){
 
   .hero-section h6{
+
 
   
   }
@@ -167,6 +182,8 @@ white-space: nowrap;
 .license-container{
   margin-right: 25rem;
 }
+
+
 
 
 

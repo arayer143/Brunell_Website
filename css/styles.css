@@ -95,7 +95,7 @@
   --h2-font-size:                 36px;
   --h3-font-size:                 32px;
   --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
+  --h5-font-size:                 14px;
 
   --p-font-size:                  20px;
   --menu-font-size:               14px;
@@ -488,7 +488,9 @@ text-align: center;
 
 
 .custom-block-overlay-text p{
-   color: white;
+   color: black;
+   font-weight: 400;
+   
   
   }
 
