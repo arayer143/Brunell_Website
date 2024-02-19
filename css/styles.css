@@ -244,13 +244,6 @@ height: auto;
 
 
 
-.navbar-brand{
-  margin-left: 2rem;
-  margin-right: 20rem;
-}
-
-
-
 
 
 
@@ -343,30 +336,6 @@ height: auto;
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
-.site-header {
-  background-image: linear-gradient(125deg,#62e1c1 15%,  #295854 100%);
-  padding-top: 150px;
-  padding-bottom: 80px;
-}
-
-.site-header .container {
-  height: 100%;
-}
-
-.breadcrumb-item+.breadcrumb-item::before,
-.breadcrumb-item a:hover,
-.breadcrumb-item.active {
-  color: var(--white-color);
-}
-
-.site-header .custom-icon {
-  color: var(--white-color);
-  font-size: var(--h4-font-size);
-}
-
-.site-header .custom-icon:hover {
-  color: white;
-}
 
 
 
@@ -420,7 +389,7 @@ text-align: center;
 }
 
 
-.custom-block-link, iframe{
+ iframe{
   display: block;
   
 }
@@ -445,16 +414,6 @@ text-align: center;
   object-fit: cover;
   margin-top: 35px;
   border-radius: 1rem;
-}
-
-.custom-block .rounded-pill {
-  border-radius: 5px !important;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  line-height: 20px;
 }
 
 .custom-block-overlay {
@@ -506,26 +465,6 @@ text-align: center;
      
      }
   }
-
-
-
-
-.social-share {
-
-  z-index: 2;
-color: #000000;
-}
-
-
-
-
-.custom-block-popular-topics {
-  height: inherit;
-}
-
-.custom-block-popular-topics .custom-block-image {
-  width: 200px;
-}
 
 
 
@@ -589,40 +528,6 @@ Paragraph styling throught project
 /*---------------------------------------
   PAGINATION              
 -----------------------------------------*/
-.pagination {
-  margin-top: 40px;
-}
-
-.page-link {
-  border: 0;
-  border-radius: var(--border-radius-small);
-  color: var(--p-color);
-  font-family: var(--title-font-family);
-  margin: 0 5px;
-  padding: 10px 20px;
-}
-
-.page-link:hover,
-.page-item:first-child .page-link:hover,
-.page-item:last-child .page-link:hover {
-  background-color: var(--secondary-color);
-  color: white;
-}
-
-.page-item:first-child .page-link {
-  margin-right: 10px;
-}
-
-.page-item:first-child .page-link,
-.page-item:last-child .page-link {
-  background-color: var(--section-bg-color);
-  border-radius: var(--border-radius-small);
-}
-
-.active>.page-link, .page-link.active {
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
-}
 
 
 
@@ -630,30 +535,6 @@ Paragraph styling throught project
 /*---------------------------------------
   FAQs              
 -----------------------------------------*/
-.faq-section .accordion-item {
-  border: 0;
-}
-
-.faq-section .accordion-button {
-  font-size: var(--h6-font-size);
-  font-weight: var(--font-weight-semibold);
-}
-
-.faq-section .accordion-item:first-of-type .accordion-button {
-  border-radius: var(--border-radius-large);
-}
-
-.faq-section .accordion-button:not(.collapsed) {
-  border-radius: var(--border-radius-large);
-  box-shadow: none;
-  color: var(--primary-color);
-}
-
-.faq-section .accordion-body {
-  color: var(--p-color);
-  font-size: var(--btn-font-size);
-  line-height: 40px;
-}
 
 
 
@@ -728,53 +609,12 @@ Paragraph styling throught project
   pointer-events: none;
 }
 
-.site-footer-link {
-  color: var(--secondary-color);
-  font-size: var(--copyright-font-size);
-  font-weight: var(--font-weight-medium);
-  line-height: 3;
-}
-
 
 
 
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
-
-
-.rounded-social-buttons {
-  text-align: center;
-  display: flex;
-justify-content:center ;
-margin-top: 3rem;
-
-
-}
-
-.rounded-social-buttons .social-button {
-  display: inline-block;
-  cursor: pointer;
-  width: 3rem;
-  height: 3rem;
-  text-decoration: none;
-  color: #fefefe;
-  font-size: small;
-  font-weight: 500;
-  border-radius: 50%;
-  transition: all 0.10 ease;
-  margin-bottom: -15px;
-  margin-right: 4px;
-  margin-left: 5px;
-
-  
-
-}
-
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
-  animation: bounce 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
-  animation-direction: alternate;
-}
 
 @keyframes bounce {
   0% {
@@ -784,47 +624,6 @@ margin-top: 3rem;
   100% {
     transform: translateY(-30px);
   }
-}
-
-
-
-.rounded-social-buttons .fa-tiktok, .fa-facebook-f, .fa-linkedin, .fa-yelp, .fa-instagram {
-  font-size: 25px;
- margin-top: 12px;
- 
-
-}
-
-.rounded-social-buttons .social-button.facebook {
-  background: #3b5998;
-}
-
-
-
-.rounded-social-buttons .social-button.tiktok {
-  background: black;
-  filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4)
-}
-
-
-
-
-.rounded-social-buttons .social-button.yelp {
-  background: #bb0000;
-}
-
-
-
-.rounded-social-buttons .social-button.instagram {
-  background: #f09433;
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-
-}
-
-.rounded-social-buttons .social-button.linkedin {
-  background: #0077b5 ;
 }
 
 
@@ -862,17 +661,6 @@ margin-top: 3rem;
   .featured-section {
     border-radius: 0 0 80px 80px;
     padding-bottom: 50px;
-  }
-
-  .custom-block-popular-topics .custom-block-image {
-    width: auto;
-  }
-
-  .custom-block-popular-topics > .d-flex,
-  .custom-block-popular-topics-info,
-  .custom-block-popular-topics a {
-    flex-direction: column;
-    vertical-align: center;
   }
 
 
