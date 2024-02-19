@@ -1,0 +1,38 @@
+{
+    "name": "Team Brunell Finance", 
+    "short_name": "Brunell Finance",
+    "start_url": "/index.html",
+    "description": "Let Team Brunell Put Your Money Where it Needs to Be!",
+    "display": "standalone",
+    "background-color": "#whitesmoke",
+    "theme_color": "#2f5e5a",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/icons/jpg file (8).jpg",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+    ],
+
+    "screenshots" : [
+        {
+          "src": "images/HMW-logo (No Books).png",
+          "sizes": "2500x1500",
+          "type": "image/png",
+          "form_factor": "wide",
+      
+          "label": "Team Brunell Finance Icon"
+        },
+        {
+            "src": "images/HMW-logo (No Books).png",
+            "sizes": "2500x1500",
+            "type": "image/png",
+        
+            "form_factor": "narrow",
+            "label": "Clean Slate Logo"
+          }
+
+    ]
+    
+}
