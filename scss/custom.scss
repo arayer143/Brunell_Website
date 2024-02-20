@@ -145,7 +145,7 @@ white-space: nowrap;
   background: linear-gradient(45deg, #a5beba 0%,#175363 29%,#295854 66%,#295854 100%);
   background-size: 400% 400%;
 
-animation: Gradient 15s ease infinite;
+animation: Gradient 15s ease;
 /*min-height: calc(100vh - 2rem);*/
 display: flex;
 flex-direction: column;
@@ -210,22 +210,7 @@ to {
   transform: rotate(1turn); 
 } 
 }
-.st0{display:none;}
-.st1{display:inline;}
-.st2{opacity:0.29;}
-.st3{fill:#FFFFFF;}
-.st4{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
-.st5{clip-path:url(#SVGID_4_);}
-.st6{clip-path:url(#SVGID_6_);}
-.st7{clip-path:url(#SVGID_8_);}
-.st8{clip-path:url(#SVGID_10_);}
-.st9{fill:none;}
-.st10{clip-path:url(#SVGID_12_);}
-.st11{opacity:0.7;}
-.st12{clip-path:url(#SVGID_14_);}
-.st13{opacity:0.2;}
-.st14{clip-path:url(#SVGID_16_);}
-.st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+
 
 
 .banner-container{
