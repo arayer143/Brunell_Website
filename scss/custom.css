@@ -313,8 +313,7 @@ Calendly Embeded Section
 --------------------------------------------------------------*/
 .onfocus {
   padding: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
+
   background-color: whitesmoke;
   border-radius: 1rem;
 }
