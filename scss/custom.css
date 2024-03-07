@@ -321,8 +321,9 @@ Calendly Embeded Section
 
 .onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/onfocus-video-bg.webp") center center;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/swissarmyknife.webp") center center;
   background-size: cover;
+  border-radius: 3rem;
 }
 
 .onfocus .content {
