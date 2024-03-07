@@ -332,11 +332,7 @@ Calendly Embeded Section
   padding: 40px;
 }
 
-@media (min-width: 768px) {
-  .onfocus .content {
-    padding: 80px;
-  }
-}
+
 .onfocus .content ul {
   list-style: none;
   padding: 0;
