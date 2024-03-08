@@ -313,7 +313,8 @@ Calendly Embeded Section
 --------------------------------------------------------------*/
 .onfocus {
   padding: 0;
-
+  margin-left: 4rem;
+  margin-right: 4rem;
   background-color: whitesmoke;
   border-radius: 1rem;
 }
@@ -322,7 +323,6 @@ Calendly Embeded Section
   min-height: 400px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/swissarmyknife.webp") center center;
   background-size: cover;
-  border-radius: 3rem;
 }
 
 .onfocus .content {
@@ -332,7 +332,11 @@ Calendly Embeded Section
   padding: 40px;
 }
 
-
+@media (min-width: 768px) {
+  .onfocus .content {
+    padding: 80px;
+  }
+}
 .onfocus .content ul {
   list-style: none;
   padding: 0;
