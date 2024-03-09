@@ -468,22 +468,34 @@ text-align: center;
 
 
 
-  @media (max-width: 520px){
+  @media (max-width: 500px){
+
+    .right-container h5{
+      font-size: medium;
+    }
+
+    
     .custom-block-overlay-text p{
       color: black;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 15px;
       
      
      }
   }
   
 
-  @media (max-width: 320px){
+  @media (max-width: 370px){
+
+    .right-container h5{
+      font-size: medium;
+    }
+
+
     .custom-block-overlay-text p{
       color: black;
       font-weight: 500;
-      font-size: 9px;
+      font-size: 13px;
       
      
      }
