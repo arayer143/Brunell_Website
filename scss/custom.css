@@ -394,6 +394,7 @@ Calendly Embeded Section
   left: calc(50% - 47px);
   top: calc(50% - 47px);
   overflow: hidden;
+  z-index: 1;
 }
 
 .onfocus .play-btn:before {
