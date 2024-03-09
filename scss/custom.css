@@ -326,7 +326,6 @@ Calendly Embeded Section
 .onfocus .video-play {
   min-height: 300px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/swissarmyknife.webp") center center;
-  background-size: cover;
   border-radius: 3rem;
 
 }
@@ -334,7 +333,6 @@ Calendly Embeded Section
 .onfocus .video-play-2 {
   min-height: 300px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/blowsyourmind.webp") center center;
-  background-size: cover;
   border-radius: 3rem;
 
 }
@@ -342,7 +340,6 @@ Calendly Embeded Section
 .onfocus .video-play-3 {
   min-height: 300px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/danagirlinterrupted.webp") center center;
-  background-size: cover;
   border-radius: 3rem;
 
 }
@@ -350,7 +347,6 @@ Calendly Embeded Section
 .onfocus .video-play-4 {
   min-height: 300px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/georgeheatsthingsup.webp") center center;
-  background-size: cover;
   border-radius: 3rem;
 
 }
@@ -359,7 +355,6 @@ Calendly Embeded Section
 .onfocus .video-play-5 {
   min-height: 300px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/clark.webp") center center;
-  background-size: cover;
   border-radius: 3rem;
 
 }
@@ -367,7 +362,6 @@ Calendly Embeded Section
 .onfocus .video-play-6 {
   min-height: 300px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/hmwlogo.webp") center center;
-  background-size: cover;
   border-radius: 3rem;
 
 }
