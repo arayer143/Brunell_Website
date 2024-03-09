@@ -354,13 +354,16 @@ height: auto;
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(125deg,#62e1c1 15%,  #295854 100%);
+  background-image: linear-gradient(125deg, 15%,  #295854 100%);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
   padding-bottom: 150px;
 text-align: center;
 }
+
+
+
 
 
 
@@ -465,7 +468,7 @@ text-align: center;
 
 
 
-  @media (max-width: 420px){
+  @media (max-width: 520px){
     .custom-block-overlay-text p{
       color: black;
       font-weight: 400;
@@ -480,7 +483,7 @@ text-align: center;
     .custom-block-overlay-text p{
       color: black;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 9px;
       
      
      }
