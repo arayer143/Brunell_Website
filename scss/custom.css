@@ -257,10 +257,14 @@ h6, .h6 {
     font-weight: 400;
   }
 }
+.e-book {
+  max-width: 300px;
+}
+
 .e-book-link a {
   text-align: center;
-  margin-top: 4rem;
   text-decoration: none;
+  color: white;
 }
 
 /*--------------------------------------------------------------
