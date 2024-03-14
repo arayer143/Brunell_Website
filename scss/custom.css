@@ -259,12 +259,15 @@ h6, .h6 {
 }
 .e-book {
   max-width: 300px;
+
 }
 
 .e-book-link a {
   text-align: center;
   text-decoration: none;
   color: white;
+  
+  
 }
 
 /*--------------------------------------------------------------
@@ -363,6 +366,12 @@ Calendly Embeded Section
 .onfocus .video-play-6 {
   min-height: 300px;
   background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/hmwlogo.webp") center center;
+  border-radius: 3rem;
+}
+
+.onfocus .video-play-7 {
+  min-height: 300px;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../images/podscatscreenshot.webp") center center;
   border-radius: 3rem;
 }
 
