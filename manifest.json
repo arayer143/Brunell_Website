@@ -12,7 +12,18 @@
             "src": "images/HMW-logo (No Books).webp",
             "type": "image/png",
             "sizes": "144x144"
-        }
+        },
+        {
+            "src": "images/HMW-logo (No Books).webp",
+            "type": "image/png",
+            "sizes": "192x192"
+          },
+
+        {
+            "src": "images/HMW-logo (No Books).webp",
+            "type": "image/png",
+            "sizes": "512x512"
+          }
     ],
 
     "screenshots" : [
@@ -23,15 +34,7 @@
           "form_factor": "wide",
       
           "label": "Team Brunell Finance Icon"
-        },
-        {
-            "src": "images/HMW-logo (No Books).webp",
-            "sizes": "2500x1500",
-            "type": "image/png",
-        
-            "form_factor": "narrow",
-            "label": "Team Brunell Finance Icon"
-          }
+        }
 
     ]
     
