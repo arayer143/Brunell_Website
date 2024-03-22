@@ -9,7 +9,7 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "images/HMW-logo (No Books).png",
+            "src": "images/HMW-logo (No Books).webp",
             "type": "image/png",
             "sizes": "144x144"
         }
@@ -17,7 +17,7 @@
 
     "screenshots" : [
         {
-          "src": "images/HMW-logo (No Books).png",
+          "src": "images/HMW-logo (No Books).webp",
           "sizes": "2500x1500",
           "type": "image/png",
           "form_factor": "wide",
@@ -25,7 +25,7 @@
           "label": "Team Brunell Finance Icon"
         },
         {
-            "src": "images/HMW-logo (No Books).png",
+            "src": "images/HMW-logo (No Books).webp",
             "sizes": "2500x1500",
             "type": "image/png",
         
