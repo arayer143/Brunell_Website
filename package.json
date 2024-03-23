@@ -1,0 +1,22 @@
+{
+  "name": "brunell_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arayer143/Brunell_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arayer143/Brunell_Website/issues"
+  },
+  "homepage": "https://github.com/arayer143/Brunell_Website#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
